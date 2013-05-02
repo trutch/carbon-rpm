@@ -1,6 +1,6 @@
 %define name carbon
-%define version 0.9.9
-%define unmangled_version 0.9.9
+%define version 0.9.10
+%define unmangled_version 0.9.10
 %define release 1
 
 Summary: Backend data caching and persistence daemon for Graphite
@@ -18,7 +18,7 @@ Url: https://launchpad.net/graphite
 Requires: python-twisted
 
 %description
-UNKNOWN
+Carbon is one of the components of Graphite, and is responsible for receiving metrics over the network and writing them down to disk using a storage backend. 
 
 %prep
 %setup -n %{name}-%{unmangled_version}
